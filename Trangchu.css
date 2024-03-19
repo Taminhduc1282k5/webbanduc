@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(51, 49, 49);
+    padding: 10px;
+}
+
+.men ul {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.men li {
+    color: white;
+    margin: auto;
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.men img {
+    width: 300px;
+    height: auto;
+    margin-right: 40px;
+    margin-left: 190px;
+}
+.men input{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#fix{
+    padding-left: 330px;  
+}
+
+
+.menu .sub-menu-1 {
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 230px;
+    padding: 15px;
+    margin-left: 45px;
+}
+
+.menu li:hover .sub-menu-1 {
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-1 li:hover{
+    color: orangered;
+}
+
+.menu .sub-menu-2 {
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 320px;
+    padding: 15px;
+    margin-left: 80px;
+}
+
+.menu li:hover .sub-menu-2 {
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-2 li:hover{
+    color: orangered;
+}
+.menu .sub-menu-3 {
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 320px;
+    padding: 15px;
+    margin-left: 185px;
+}
+
+.menu li:hover .sub-menu-3 {
+    background-color: black;
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+}
+.sub-menu-3 li:hover{
+    color: orangered;
+}
+
+
+main {
+    background-color: rgb(55, 67, 78);
+    padding-top: 15px;
+}
+
+section {
+    margin: 0px 200px 15px 200px;
+    background-color: rgb(51, 49, 49);
+    border-radius: 3px;
+}
+
+.listfilm {
+    display: flex;
+}
+
+.listfilm .product {
+    margin: auto;
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+span:hover{
+    color: orangered;
+}
+
+#fix{
+    margin-left: -200px;
+}
+
+main img{
+     max-width: 100%;
+     transition: all 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.product img{
+    width: 150px;
+    height: 230px;
+}
+div{
+    color: #fff;
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    color: #fff;
+}
